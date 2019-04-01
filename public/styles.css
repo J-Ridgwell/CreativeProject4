@@ -1,0 +1,53 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background: #fff;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  padding: 20px 100px 0px 100px;
+  background-color: #ff5b5b;
+  color: #fff;
+}
+
+#app {
+  padding: 20px;
+}
+.title {
+  margin-top: 30px;
+  margin-left: 12px;
+  color: #000;
+}
+
+.title h1, .title h2 {
+  margin: 0px;
+}
+
+.title h1 {
+  border-top: 1px solid #000;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+}
+
+input, textarea, select, button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+.date {
+    display: flex;
+}
+
+.session {
+    flex: 5;
+}
+
+.delete {
+    flex: 1;
+}
